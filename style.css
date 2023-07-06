@@ -9,13 +9,15 @@ body {
   background-color: #c1c7d0;
 }
 
-.nav-section {
-  background-color: white;
-  width: 100%;
+.nav-bar {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  padding: 8px 0;
+  background-color: white;
+}
+
+.nav-section {
+  border: 1px solid white;
 }
 
 .logo {
@@ -23,6 +25,7 @@ body {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
+  text-decoration: none;
   line-height: 50px;
   margin-left: 30px;
   cursor: pointer;
@@ -30,7 +33,7 @@ body {
 
 .btn {
   display: block;
-  margin: 12px 25px 0 0;
+  margin: 16px 25px 0 0;
   cursor: pointer;
 }
 
@@ -57,13 +60,14 @@ body {
   color: #172b4d;
   font-size: 40px;
   font-weight: 700;
-  line-height: 45px;
+  line-height: 40px;
 }
 
 .par-me {
+  width: 88%;
   color: #344563;
   margin: 10px 0 0 30px;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
 }
