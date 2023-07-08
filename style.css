@@ -63,7 +63,7 @@ body {
   line-height: 40px;
 }
 
-.par-me {
+.about .par-me {
   width: 88%;
   color: #344563;
   margin: 10px 0 0 30px;
@@ -108,8 +108,12 @@ body {
   border-radius: 16px;
   background: var(--neutrals-n-0, #fff);
   margin: 0 auto;
-  margin-top: 130px;
+  margin-top: 114px;
   padding: 15px 15px 30px 15px;
+
+  /* display: flex;
+  flex-direction: column;
+  /*align-items: center; */
 }
 
 .card-1 img {
@@ -118,11 +122,13 @@ body {
 
 .tonic {
   color: #172b4d;
-  font-size: 30px;
+  font-size: 44px;
   font-style: normal;
   font-weight: 700;
-  line-height: 20px;
+  line-height: 38px;
   margin-top: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 .canop {
@@ -133,9 +139,10 @@ body {
 
 .can-info {
   color: #344563;
-  font-size: 16px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 600;
+  line-height: 16px;
 }
 
 .point {
@@ -143,18 +150,32 @@ body {
   height: 8px;
   background: #c1c7d0;
   border-radius: 5px;
-  margin: 8px 0 0 6px;
+  margin: 3px 0 0 6px;
 }
 
 .back {
   color: #7a869a;
-  font-size: 15px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 600;
-  margin: 1px 0 0 6px;
+  line-height: 16px;
+  margin: 0 0 0 6px;
 }
 
-.languages {
+.card-1 .paranic {
+  display: flex;
+  width: 295px;
+  height: 76px;
+  flex-direction: column;
+  color: #344563;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 15px;
+}
+
+/* .languages {
   display: flex;
   flex-wrap: wrap;
   margin-top: 10px;
@@ -169,17 +190,50 @@ body {
   border-radius: 8px;
   background-color: #ebebff;
   padding: 5px 10px;
+} */
+
+.languages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.card-1 .languages li {
+  list-style: none;
+}
+
+.card-1 .languages li a {
+  text-decoration: none;
+  display: flex;
+  padding: 4px 12px;
+  align-items: center;
+  border-radius: 8px;
+  background: var(--primary-b-50, #ebebff);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.36px;
 }
 
 .see {
   border-radius: 8px;
   border: 1px solid #6070ff;
-  margin-top: 10px;
-  padding: 10px;
+  margin-top: 25px;
+  padding: 20px;
+  background-color: white;
   color: #396df2;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0.51px;
+}
+
+.see:hover {
+  background-color: #396df2;
+  color: white;
 }
 
 /* Card 2 */
@@ -189,7 +243,7 @@ body {
   border-radius: 16px;
   background: var(--neutrals-n-0, #fff);
   margin: 0 auto;
-  margin-top: 130px;
+  margin-top: 88px;
   padding: 15px 15px 30px 15px;
 }
 
@@ -199,10 +253,10 @@ body {
 
 .tonic-2 {
   color: #172b4d;
-  font-size: 30px;
+  font-size: 44px;
   font-style: normal;
   font-weight: 700;
-  line-height: 20px;
+  line-height: 38px;
   margin-top: 15px;
 }
 
@@ -214,9 +268,10 @@ body {
 
 .can-info-2 {
   color: #344563;
-  font-size: 16px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 600;
+  line-height: 16px;
 }
 
 .point-2 {
@@ -224,43 +279,73 @@ body {
   height: 8px;
   background: #c1c7d0;
   border-radius: 5px;
-  margin: 8px 0 0 6px;
+  margin: 3px 0 0 6px;
 }
 
 .back-2 {
   color: #7a869a;
-  font-size: 15px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 600;
-  margin: 1px 0 0 6px;
+  line-height: 16px;
+  margin: 0 0 0 6px;
+}
+
+.card-2 .paranic-2 {
+  display: flex;
+  width: 295px;
+  height: 76px;
+  flex-direction: column;
+  color: #344563;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 15px;
 }
 
 .languages-2 {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 10px;
-  gap: 8px;
+  gap: 10px;
+  margin-top: 15px;
 }
 
-.languages-2 p {
-  color: #6070ff;
-  font-size: 13px;
+.card-2 .languages-2 li {
+  list-style: none;
+}
+
+.card-2 .languages-2 li a {
+  text-decoration: none;
+  display: flex;
+  padding: 4px 12px;
+  align-items: center;
+  border-radius: 8px;
+  background: var(--primary-b-50, #ebebff);
+  font-size: 12px;
   font-style: normal;
   font-weight: 500;
-  border-radius: 8px;
-  background-color: #ebebff;
-  padding: 5px 10px;
+  line-height: 16px;
+  letter-spacing: 0.36px;
 }
 
 .see-2 {
   border-radius: 8px;
   border: 1px solid #6070ff;
-  margin-top: 10px;
-  padding: 10px;
+  margin-top: 25px;
+  padding: 20px;
+  background-color: white;
   color: #396df2;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0.51px;
+}
+
+.see-2:hover {
+  background-color: #396df2;
+  color: white;
 }
 
 /* Card 3 */
@@ -270,7 +355,7 @@ body {
   border-radius: 16px;
   background: var(--neutrals-n-0, #fff);
   margin: 0 auto;
-  margin-top: 130px;
+  margin-top: 88px;
   padding: 15px 15px 30px 15px;
 }
 
@@ -280,10 +365,10 @@ body {
 
 .tonic-3 {
   color: #172b4d;
-  font-size: 30px;
+  font-size: 44px;
   font-style: normal;
   font-weight: 700;
-  line-height: 20px;
+  line-height: 38px;
   margin-top: 15px;
 }
 
@@ -295,9 +380,10 @@ body {
 
 .can-info-3 {
   color: #344563;
-  font-size: 16px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 600;
+  line-height: 16px;
 }
 
 .point-3 {
@@ -305,43 +391,73 @@ body {
   height: 8px;
   background: #c1c7d0;
   border-radius: 5px;
-  margin: 8px 0 0 6px;
+  margin: 3px 0 0 6px;
 }
 
 .back-3 {
   color: #7a869a;
-  font-size: 15px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 600;
-  margin: 1px 0 0 6px;
+  line-height: 16px;
+  margin: 0 0 0 6px;
+}
+
+.card-3 .paranic-3 {
+  display: flex;
+  width: 295px;
+  height: 76px;
+  flex-direction: column;
+  color: #344563;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 15px;
 }
 
 .languages-3 {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 10px;
-  gap: 8px;
+  gap: 10px;
+  margin-top: 15px;
 }
 
-.languages-3 p {
-  color: #6070ff;
-  font-size: 13px;
+.card-3 .languages-3 li {
+  list-style: none;
+}
+
+.card-3 .languages-3 li a {
+  text-decoration: none;
+  display: flex;
+  padding: 4px 12px;
+  align-items: center;
+  border-radius: 8px;
+  background: var(--primary-b-50, #ebebff);
+  font-size: 12px;
   font-style: normal;
   font-weight: 500;
-  border-radius: 8px;
-  background-color: #ebebff;
-  padding: 5px 10px;
+  line-height: 16px;
+  letter-spacing: 0.36px;
 }
 
 .see-3 {
   border-radius: 8px;
   border: 1px solid #6070ff;
-  margin-top: 10px;
-  padding: 10px;
+  margin-top: 25px;
+  padding: 20px;
+  background-color: white;
   color: #396df2;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0.51px;
+}
+
+.see-3:hover {
+  background-color: #396df2;
+  color: white;
 }
 
 /* Card 4 */
@@ -351,7 +467,7 @@ body {
   border-radius: 16px;
   background: var(--neutrals-n-0, #fff);
   margin: 0 auto;
-  margin-top: 130px;
+  margin-top: 88px;
   padding: 15px 15px 30px 15px;
 }
 
@@ -361,10 +477,10 @@ body {
 
 .tonic-4 {
   color: #172b4d;
-  font-size: 30px;
+  font-size: 44px;
   font-style: normal;
   font-weight: 700;
-  line-height: 20px;
+  line-height: 38px;
   margin-top: 15px;
 }
 
@@ -376,9 +492,10 @@ body {
 
 .can-info-4 {
   color: #344563;
-  font-size: 16px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 600;
+  line-height: 16px;
 }
 
 .point-4 {
@@ -386,50 +503,80 @@ body {
   height: 8px;
   background: #c1c7d0;
   border-radius: 5px;
-  margin: 8px 0 0 6px;
+  margin: 3px 0 0 6px;
 }
 
 .back-4 {
   color: #7a869a;
-  font-size: 15px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 600;
-  margin: 1px 0 0 6px;
+  line-height: 16px;
+  margin: 0 0 0 6px;
+}
+
+.card-4 .paranic-4 {
+  display: flex;
+  width: 295px;
+  height: 76px;
+  flex-direction: column;
+  color: #344563;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 15px;
 }
 
 .languages-4 {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 10px;
-  gap: 8px;
+  gap: 10px;
+  margin-top: 15px;
 }
 
-.languages-4 p {
-  color: #6070ff;
-  font-size: 13px;
+.card-4 .languages-4 li {
+  list-style: none;
+}
+
+.card-4 .languages-4 li a {
+  text-decoration: none;
+  display: flex;
+  padding: 4px 12px;
+  align-items: center;
+  border-radius: 8px;
+  background: var(--primary-b-50, #ebebff);
+  font-size: 12px;
   font-style: normal;
   font-weight: 500;
-  border-radius: 8px;
-  background-color: #ebebff;
-  padding: 5px 10px;
+  line-height: 16px;
+  letter-spacing: 0.36px;
 }
 
 .see-4 {
   border-radius: 8px;
   border: 1px solid #6070ff;
-  margin-top: 10px;
-  padding: 10px;
+  margin-top: 25px;
+  padding: 20px;
+  background-color: white;
   color: #396df2;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0.51px;
+}
+
+.see-4:hover {
+  background-color: #396df2;
+  color: white;
 }
 
 /* About section */
 .myself {
   max-width: 100%;
   background: #fff;
-  margin-top: 100px;
+  margin-top: 114px;
   border-radius: 0 60px 0 0;
   height: auto;
   padding-bottom: 100px;
@@ -451,33 +598,34 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  padding: 5px 5px 0 20px;
+  padding: 12px 24px 0 24px;
 }
 
 .conn-5 {
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-  padding: 10px 5px 0 20px;
+  padding: 12px 5px 0 20px;
 }
 
 .myself .social-5 {
   display: flex;
   flex-wrap: wrap;
+  gap: 25px;
   margin-left: 20px;
   margin-top: 25px;
 }
 
 .myself .social-5 li {
   list-style: none;
-  margin-right: 25px;
 }
 
 .btn-5 {
   border: 1px solid #396df2;
   border-radius: 10px;
+  background-color: white;
   margin: 20px 0 0 20px;
   padding: 15px 20px;
   font-style: normal;
@@ -485,6 +633,11 @@ body {
   font-size: 17px;
   line-height: 24px;
   color: #396df2;
+}
+
+.btn-5:hover {
+  background-color: #396df2;
+  color: white;
 }
 
 .language {
