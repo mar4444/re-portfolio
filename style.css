@@ -104,9 +104,9 @@ body {
 /* Card 1 */
 .card-1 {
   width: 90%;
-  border: 1px solid var(--neutrals-n-40, #DFE1E6);
+  border: 1px solid var(--neutrals-n-40, #dfe1e6);
   border-radius: 16px;
-  background: var(--neutrals-n-0, #FFF);
+  background: var(--neutrals-n-0, #fff);
   margin: 0 auto;
   margin-top: 130px;
   padding: 15px 15px 30px 15px;
@@ -117,7 +117,7 @@ body {
 }
 
 .tonic {
-  color: #172B4D;
+  color: #172b4d;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -141,13 +141,13 @@ body {
 .point {
   width: 8px;
   height: 8px;
-  background: #C1C7D0;
+  background: #c1c7d0;
   border-radius: 5px;
   margin: 8px 0 0 6px;
 }
 
 .back {
-  color: #7A869A;
+  color: #7a869a;
   font-size: 15px;
   font-style: normal;
   font-weight: 600;
@@ -162,21 +162,21 @@ body {
 }
 
 .languages p {
-  color: #6070FF;
+  color: #6070ff;
   font-size: 13px;
   font-style: normal;
   font-weight: 500;
   border-radius: 8px;
-  background-color: #EBEBFF;
+  background-color: #ebebff;
   padding: 5px 10px;
 }
 
 .see {
   border-radius: 8px;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   margin-top: 10px;
   padding: 10px;
-  color: #396DF2;
+  color: #396df2;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
@@ -185,9 +185,9 @@ body {
 /* Card 2 */
 .card-2 {
   width: 90%;
-  border: 1px solid var(--neutrals-n-40, #DFE1E6);
+  border: 1px solid var(--neutrals-n-40, #dfe1e6);
   border-radius: 16px;
-  background: var(--neutrals-n-0, #FFF);
+  background: var(--neutrals-n-0, #fff);
   margin: 0 auto;
   margin-top: 130px;
   padding: 15px 15px 30px 15px;
@@ -198,7 +198,7 @@ body {
 }
 
 .tonic-2 {
-  color: #172B4D;
+  color: #172b4d;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -222,13 +222,13 @@ body {
 .point-2 {
   width: 8px;
   height: 8px;
-  background: #C1C7D0;
+  background: #c1c7d0;
   border-radius: 5px;
   margin: 8px 0 0 6px;
 }
 
 .back-2 {
-  color: #7A869A;
+  color: #7a869a;
   font-size: 15px;
   font-style: normal;
   font-weight: 600;
@@ -243,21 +243,21 @@ body {
 }
 
 .languages-2 p {
-  color: #6070FF;
+  color: #6070ff;
   font-size: 13px;
   font-style: normal;
   font-weight: 500;
   border-radius: 8px;
-  background-color: #EBEBFF;
+  background-color: #ebebff;
   padding: 5px 10px;
 }
 
 .see-2 {
   border-radius: 8px;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   margin-top: 10px;
   padding: 10px;
-  color: #396DF2;
+  color: #396df2;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
@@ -266,9 +266,9 @@ body {
 /* Card 3 */
 .card-3 {
   width: 90%;
-  border: 1px solid var(--neutrals-n-40, #DFE1E6);
+  border: 1px solid var(--neutrals-n-40, #dfe1e6);
   border-radius: 16px;
-  background: var(--neutrals-n-0, #FFF);
+  background: var(--neutrals-n-0, #fff);
   margin: 0 auto;
   margin-top: 130px;
   padding: 15px 15px 30px 15px;
@@ -279,7 +279,7 @@ body {
 }
 
 .tonic-3 {
-  color: #172B4D;
+  color: #172b4d;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -303,13 +303,13 @@ body {
 .point-3 {
   width: 8px;
   height: 8px;
-  background: #C1C7D0;
+  background: #c1c7d0;
   border-radius: 5px;
   margin: 8px 0 0 6px;
 }
 
 .back-3 {
-  color: #7A869A;
+  color: #7a869a;
   font-size: 15px;
   font-style: normal;
   font-weight: 600;
@@ -324,21 +324,21 @@ body {
 }
 
 .languages-3 p {
-  color: #6070FF;
+  color: #6070ff;
   font-size: 13px;
   font-style: normal;
   font-weight: 500;
   border-radius: 8px;
-  background-color: #EBEBFF;
+  background-color: #ebebff;
   padding: 5px 10px;
 }
 
 .see-3 {
   border-radius: 8px;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   margin-top: 10px;
   padding: 10px;
-  color: #396DF2;
+  color: #396df2;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
@@ -347,9 +347,9 @@ body {
 /* Card 4 */
 .card-4 {
   width: 90%;
-  border: 1px solid var(--neutrals-n-40, #DFE1E6);
+  border: 1px solid var(--neutrals-n-40, #dfe1e6);
   border-radius: 16px;
-  background: var(--neutrals-n-0, #FFF);
+  background: var(--neutrals-n-0, #fff);
   margin: 0 auto;
   margin-top: 130px;
   padding: 15px 15px 30px 15px;
@@ -360,7 +360,7 @@ body {
 }
 
 .tonic-4 {
-  color: #172B4D;
+  color: #172b4d;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -384,13 +384,13 @@ body {
 .point-4 {
   width: 8px;
   height: 8px;
-  background: #C1C7D0;
+  background: #c1c7d0;
   border-radius: 5px;
   margin: 8px 0 0 6px;
 }
 
 .back-4 {
-  color: #7A869A;
+  color: #7a869a;
   font-size: 15px;
   font-style: normal;
   font-weight: 600;
@@ -405,21 +405,21 @@ body {
 }
 
 .languages-4 p {
-  color: #6070FF;
+  color: #6070ff;
   font-size: 13px;
   font-style: normal;
   font-weight: 500;
   border-radius: 8px;
-  background-color: #EBEBFF;
+  background-color: #ebebff;
   padding: 5px 10px;
 }
 
 .see-4 {
   border-radius: 8px;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   margin-top: 10px;
   padding: 10px;
-  color: #396DF2;
+  color: #396df2;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
@@ -428,7 +428,7 @@ body {
 /* About section */
 .myself {
   max-width: 100%;
-  background: #FFFFFF;
+  background: #fff;
   margin-top: 100px;
   border-radius: 0 60px 0 0;
   height: auto;
@@ -436,18 +436,16 @@ body {
 }
 
 .me {
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #172B4D;
+  color: #172b4d;
   padding-top: 100px;
   padding-left: 20px;
 }
 
 .para-detail {
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -457,38 +455,36 @@ body {
 }
 
 .conn-5 {
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: #7F8CFF;
+  color: #7f8cff;
   padding: 10px 5px 0 20px;
 }
 
-.social-5 {
+.myself .social-5 {
   display: flex;
   flex-wrap: wrap;
   margin-left: 20px;
   margin-top: 25px;
 }
 
-.social-5 li {
+.myself .social-5 li {
   list-style: none;
   margin-right: 25px;
 }
 
 .btn-5 {
-  border: 1px solid #396DF2;
+  border: 1px solid #396df2;
   border-radius: 10px;
   margin: 20px 0 0 20px;
   padding: 15px 20px;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  color: #396DF2;
+  color: #396df2;
 }
 
 .language {
@@ -505,12 +501,11 @@ body {
 }
 
 .lang p {
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: #000000;
+  color: #000;
   margin-top: 10px;
 }
 
@@ -526,7 +521,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
 }
 
@@ -538,7 +533,6 @@ body {
 }
 
 .java p {
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -553,7 +547,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
   margin-top: 15px;
 }
@@ -566,7 +560,6 @@ body {
 }
 
 .htmll p {
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -581,7 +574,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
   margin-top: 15px;
 }
@@ -594,7 +587,6 @@ body {
 }
 
 .csss p {
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -612,12 +604,11 @@ body {
 }
 
 .frameworks p {
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 50px;
-  color: #000000;
+  color: #000;
   margin-top: 28px;
 }
 
@@ -636,12 +627,11 @@ body {
 }
 
 .skills p {
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 50px;
-  color: #000000;
+  color: #000;
   margin-top: 20px;
 }
 
@@ -654,5 +644,5 @@ body {
 .line {
   max-width: 100%;
   height: 1px;
-  background: #DFE1E6;
+  background: #dfe1e6;
 }
