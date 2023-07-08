@@ -13,10 +13,16 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -96,11 +102,15 @@ To run tests, run the following command:
 - npx hint .
 - npx stylelint "\*_/_.{css,scss}"
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+> Mention all of the collaborators of this project.
+
+👤 **Author**
 
 - GitHub: [mar4444](https://github.com/mar4444)
 - Twitter: [Musirikare_](https://twitter.com/Musirikare_)
