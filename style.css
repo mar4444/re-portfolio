@@ -110,10 +110,10 @@ body {
   margin: 0 auto;
   margin-top: 114px;
   padding: 15px 15px 30px 15px;
+  display: flex;
+  flex-flow: column wrap;
 
-  /* display: flex;
-  flex-direction: column;
-  /*align-items: center; */
+  /* align-items: center; */
 }
 
 .card-1 img {
@@ -229,11 +229,17 @@ body {
   font-weight: 500;
   line-height: 14px;
   letter-spacing: 0.51px;
+  width: 150px;
 }
 
 .see:hover {
   background-color: #396df2;
   color: white;
+}
+
+.see:active {
+  color: white;
+  background-color: #044afc;
 }
 
 /* Card 2 */
@@ -245,6 +251,8 @@ body {
   margin: 0 auto;
   margin-top: 88px;
   padding: 15px 15px 30px 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-2 img {
@@ -341,11 +349,17 @@ body {
   font-weight: 500;
   line-height: 14px;
   letter-spacing: 0.51px;
+  width: 150px;
 }
 
 .see-2:hover {
   background-color: #396df2;
   color: white;
+}
+
+.see-2:active {
+  color: white;
+  background-color: #044afc;
 }
 
 /* Card 3 */
@@ -357,6 +371,8 @@ body {
   margin: 0 auto;
   margin-top: 88px;
   padding: 15px 15px 30px 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-3 img {
@@ -453,11 +469,17 @@ body {
   font-weight: 500;
   line-height: 14px;
   letter-spacing: 0.51px;
+  width: 150px;
 }
 
 .see-3:hover {
   background-color: #396df2;
   color: white;
+}
+
+.see-3:active {
+  color: white;
+  background-color: #044afc;
 }
 
 /* Card 4 */
@@ -469,6 +491,8 @@ body {
   margin: 0 auto;
   margin-top: 88px;
   padding: 15px 15px 30px 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-4 img {
@@ -565,11 +589,17 @@ body {
   font-weight: 500;
   line-height: 14px;
   letter-spacing: 0.51px;
+  width: 150px;
 }
 
 .see-4:hover {
   background-color: #396df2;
   color: white;
+}
+
+.see-4:active {
+  color: white;
+  background-color: #044afc;
 }
 
 /* About section */
@@ -640,162 +670,140 @@ body {
   color: white;
 }
 
-.language {
-  max-width: 85%;
-  margin: 50px auto 0;
+.myself .lang {
+  width: 90%;
+  margin: 0 auto;
+  list-style: none;
 }
 
-.lang {
-  max-width: 100%;
-  height: 60px;
+.myself .lang .lang-des li {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  padding: 25px 0;
+  margin-top: 30px;
 }
 
-.lang p {
+.myself .lang .lang-des li p {
+  color: #000;
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
   line-height: 24px;
+}
+
+.myself .lang .lang-des li img {
+  margin-right: 20px;
+}
+
+.myself .lang .frame li img {
+  margin-right: 20px;
+}
+
+.myself .lang .skills li img {
+  margin-right: 20px;
+}
+
+.myself .lang .know .java {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 8px;
+  border-radius: 8px;
+  padding: 10px 0;
+  background-color: #f7f7f9;
+}
+
+.myself .lang .know .java img {
+  margin-left: 5px;
+}
+
+.myself .lang .frame li p {
   color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.myself .lang .skills li p {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.myself .lang .know .java p {
+  color: #253858;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  margin-top: 18px;
+}
+
+.myself .lang .know .htmll {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 8px;
+  border-radius: 8px;
+  padding: 10px 0;
+  background-color: #f7f7f9;
   margin-top: 10px;
 }
 
-.lang img {
-  width: 20px;
-  height: 25px;
-  margin: 5px 20px 0 0;
-}
-
-.java {
-  max-width: 100%;
-  height: 80px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  background: #f7f7f9;
-  border-radius: 8px;
-}
-
-.java img {
-  width: 50px;
-  height: 50px;
-  margin-top: 15px;
+.myself .lang .know .htmll img {
   margin-left: 5px;
 }
 
-.java p {
+.myself .lang .know .htmll p {
+  color: #253858;
+  font-size: 15px;
   font-style: normal;
   font-weight: 500;
-  font-size: 17px;
   line-height: 20px;
-  color: #253858;
-  margin-top: 30px;
+  margin-top: 18px;
 }
 
-.htmll {
-  max-width: 100%;
-  height: 80px;
+.myself .lang .know .csss {
   display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  background: #f7f7f9;
+  flex-flow: row wrap;
+  gap: 8px;
   border-radius: 8px;
-  margin-top: 15px;
+  padding: 10px 0;
+  background-color: #f7f7f9;
+  margin-top: 10px;
 }
 
-.htmll img {
-  width: 50px;
-  height: 50px;
-  margin-top: 15px;
+.myself .lang .know .csss img {
   margin-left: 5px;
 }
 
-.htmll p {
+.myself .lang .know .csss p {
+  color: #253858;
+  font-size: 15px;
   font-style: normal;
   font-weight: 500;
-  font-size: 17px;
   line-height: 20px;
-  color: #253858;
-  margin-top: 30px;
+  margin-top: 18px;
 }
 
-.csss {
-  max-width: 100%;
-  height: 80px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  background: #f7f7f9;
-  border-radius: 8px;
-  margin-top: 15px;
-}
-
-.csss img {
-  width: 50px;
-  height: 50px;
-  margin-top: 15px;
-  margin-left: 5px;
-}
-
-.csss p {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 20px;
-  color: #253858;
-  margin-top: 30px;
-}
-
-.frameworks {
-  max-width: 100%;
-  height: 90px;
+.myself .lang .frame li {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  padding: 25px 0;
 }
 
-.frameworks p {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 50px;
-  color: #000;
-  margin-top: 28px;
-}
-
-.frameworks img {
-  width: 20px;
-  height: 25px;
-  margin: 38px 20px 0 0;
-}
-
-.skills {
-  max-width: 100%;
-  height: 90px;
+.myself .lang .skills li {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  padding: 25px 0;
 }
 
-.skills p {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 50px;
-  color: #000;
-  margin-top: 20px;
-}
-
-.skills img {
-  width: 20px;
-  height: 25px;
-  margin: 38px 20px 0 0;
-}
-
-.line {
-  max-width: 100%;
+.myself .lang .line {
+  width: 100%;
   height: 1px;
-  background: #dfe1e6;
+  background-color: #dfe1e6;
 }
