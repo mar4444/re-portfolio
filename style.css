@@ -99,6 +99,8 @@ body {
 .work {
   display: grid;
   grid-template-columns: 1fr;
+  gap: 8em;
+  margin: 8em auto;
 }
 
 /* Card 1 */
@@ -108,10 +110,10 @@ body {
   border-radius: 16px;
   background: var(--neutrals-n-0, #fff);
   margin: 0 auto;
-  margin-top: 114px;
   padding: 15px 15px 30px 15px;
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: column;
+  /* flex-flow: column wrap; */
 
   /* align-items: center; */
 }
@@ -242,7 +244,7 @@ body {
   background-color: #044afc;
 }
 
-/* Card 2 */
+/* Card 2
 .card-2 {
   width: 90%;
   border: 1px solid var(--neutrals-n-40, #dfe1e6);
@@ -363,7 +365,7 @@ body {
 }
 
 /* Card 3 */
-.card-3 {
+/* .card-3 {
   width: 90%;
   border: 1px solid var(--neutrals-n-40, #dfe1e6);
   border-radius: 16px;
@@ -480,9 +482,9 @@ body {
 .see-3:active {
   color: white;
   background-color: #044afc;
-}
+} */
 
-/* Card 4 */
+/* Card 4 
 .card-4 {
   width: 90%;
   border: 1px solid var(--neutrals-n-40, #dfe1e6);
@@ -600,13 +602,13 @@ body {
 .see-4:active {
   color: white;
   background-color: #044afc;
-}
+} */
 
 /* About section */
 .myself {
   max-width: 100%;
   background: #fff;
-  margin-top: 114px;
+  margin-top: 2em;
   border-radius: 0 60px 0 0;
   height: auto;
   padding-bottom: 100px;
