@@ -107,10 +107,10 @@ body {
   border: 1px solid var(--neutrals-n-40, #dfe1e6);
   border-radius: 16px;
   background: var(--neutrals-n-0, #fff);
-  margin: 0 auto;
+  /*margin: 0 auto;
   margin-top: 114px;
   padding: 15px 15px 30px 15px;
-  display: flex;
+  display: flex;*/
   flex-flow: column wrap;
 
   /* align-items: center; */
